@@ -27,4 +27,4 @@ spec:
       volumes:
         - name: mosquitto-configuration
           configMap:
-          name: mosquitto-configuration
+            name: mosquitto-configuration
