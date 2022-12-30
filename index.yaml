@@ -3,6 +3,16 @@ entries:
   mosquitto:
   - apiVersion: v2
     appVersion: 2.0.15
+    created: "2022-12-30T14:46:15.501473791Z"
+    description: A mosquitto Helm chart for Kubernetes
+    digest: c302936e0731577e3eb040fe38996dcfbbaafaefd3f80859c2fd75c05aae7afa
+    name: mosquitto
+    type: application
+    urls:
+    - https://github.com/biggless/helm-charts/releases/download/mosquitto-0.0.13/mosquitto-0.0.13.tgz
+    version: 0.0.13
+  - apiVersion: v2
+    appVersion: 2.0.15
     created: "2022-12-30T13:03:50.025769071Z"
     description: A mosquitto Helm chart for Kubernetes
     digest: 369bde023499f057a79e2ff7067615de5035acba62272b9039da2673b6b95bf2
@@ -101,4 +111,15 @@ entries:
     urls:
     - https://github.com/biggless/helm-charts/releases/download/mosquitto-0.0.3/mosquitto-0.0.3.tgz
     version: 0.0.3
+  zigbee2mqtt:
+  - apiVersion: v2
+    appVersion: 1.28.4
+    created: "2022-12-30T14:46:15.675333108Z"
+    description: A zigbee2mqtt Helm chart for Kubernetes
+    digest: 920bccbed749d5ae939b0a5e194cef90ad28cd160b4b5ae6cd8dcc636e5a0a18
+    name: zigbee2mqtt
+    type: application
+    urls:
+    - https://github.com/biggless/helm-charts/releases/download/zigbee2mqtt-0.0.2/zigbee2mqtt-0.0.2.tgz
+    version: 0.0.2
 generated: "2022-12-30T10:08:02.75086963Z"
