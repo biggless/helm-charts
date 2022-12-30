@@ -3,6 +3,16 @@ entries:
   mosquitto:
   - apiVersion: v2
     appVersion: 2.0.15
+    created: "2022-12-30T11:50:45.046735752Z"
+    description: A mosquitto Helm chart for Kubernetes
+    digest: dc3a62e3fd328e44276655ca224b3cd93e26dfc0f3db80b5e76c3c33307b5a85
+    name: mosquitto
+    type: application
+    urls:
+    - https://github.com/biggless/helm-charts/releases/download/mosquitto-0.0.8/mosquitto-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v2
+    appVersion: 2.0.15
     created: "2022-12-30T11:48:07.334347393Z"
     description: A mosquitto Helm chart for Kubernetes
     digest: 98276b7a5d5a3adc80b110275af7c5d060d1ef9edb4b424587d89b16fa6df9af
