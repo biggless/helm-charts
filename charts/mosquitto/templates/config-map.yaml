@@ -5,4 +5,4 @@ metadata:
 data:
   mosquitto.conf: |
     listener 1883
-    allow_anonymous true
+    allow_anonymous {{ .Values.allow_anonymous }}
